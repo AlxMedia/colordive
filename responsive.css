@@ -1,0 +1,83 @@
+.page-wrapper { min-width: 320px; }
+@media only screen and (max-width: 1023px) {
+	.site-description { display: none; }
+}
+
+@media only screen and (max-width: 820px) {
+	.stickywrap .stickywrap-inner { margin-top: 0; margin-left: 0; }
+	.stickywrap .stickywrap-heading { position: relative; top: 0!important; margin-bottom: 20px; height: 30px; }
+}
+
+@media only screen and (max-width: 719px) {
+	.grid { width: 100%; margin: 0 0 10px; }
+	.entry { font-size: 15px; }
+	.entry h1 { font-size: 30px; letter-spacing: -0.7px; }
+	.entry h2 { font-size: 26px; letter-spacing: -0.5px; }
+	.entry h3 { font-size: 24px; letter-spacing: -0.3px; }
+	.entry h4 { font-size: 22px; letter-spacing: -0.3px; }
+	.entry h5 { font-size: 18px; }
+	.entry h6 { font-size: 16px; text-transform: uppercase; }
+	
+	.entry,
+	.entry-header, 
+	.entry-footer { padding-left: 0; padding-right: 0; }
+	
+	.comment-tabs { font-size: 14px; }
+	.commentlist li { font-size: 13px; }
+	.commentlist li ul li { padding-left: 10px; }
+	
+	.sharrre-footer .sharrre .share span { display: none; }
+	.post-nav { border-bottom: 0; }
+	.post-nav li { width: 100%; border-bottom: 1px solid rgba(0,0,0,0.06); }
+	
+	.page-wrapper-lights { height: 300px; }
+	.main-inner { padding-left: 20px; padding-right: 20px; }
+	.intro-card-title { font-size: 32px; }
+	.intro-card-desc { font-size: 14px; }
+	.slick-posts-nav { display: none; }
+	
+	.stickywrap .stickywrap-inner { padding-left: 0; }
+	.stickywrap .stickywrap-inner:after { display: none; }
+	.stickywrap .stickywrap-inner:before { left: 20px; }
+	
+}
+@media only screen and (max-width: 479px) {
+	.pagination { margin-top: 60px; }
+	.comments-nav .next,
+	.comments-nav .prev { width: 100%; }
+	
+	.sharrre-footer .sharrre .count { display: none; }
+	
+	.stickywrap .stickywrap-heading { margin-bottom: 30px; }
+	.stickywrap .stickywrap-heading:before { left: 90px; }
+	.stickywrap .stickywrap-heading-inside { width: 100px; }
+	.stickywrap .stickywrap-inner { margin-bottom: 0; }
+	.stickywrap .stickywrap-inner:before { left: 110px; right: 0; top: -52px; bottom: auto; }
+	
+	.intro-card { margin-bottom: 20px; }
+	.blog-card { margin-bottom: 30px; }
+	.blog-card-featured { padding-top: 40px; margin-bottom: 0; }
+	.blog-card-title { font-size: 19px; }
+	.has-thumbnail .blog-card-title { margin-top: 30px; }
+	.blog-card-excerpt { font-size: 13px; }
+	.blog-card-link,
+	.blog-card-bottom,
+	.blog-card-featured .blog-card-link,
+	.blog-card-featured .blog-card-bottom { padding-left: 20px; padding-right: 20px; }
+	.blog-card-bottom { display: block; position: relative; }
+	.blog-card-bottom .blog-card-category { margin-top: 6px; }
+	.blog-card-bottom a.card-comments { position: absolute; right: 20px; bottom: 10px; }
+	.blog-card-thumb { position: absolute; left: 50%; margin-top: 10px; top: -50px; margin-left: -40px; }
+	.has-thumbnail .blog-card-title, 
+	.has-thumbnail .blog-card-excerpt { margin-right: 0; }
+	
+	.blog-single-title { font-size: 26px; }
+	
+	.page-title { margin-bottom: 30px; }
+	.page-title .page-title-box { font-size: 14px; }
+	
+	#footer { padding-left: 20px; padding-right: 20px; }
+	#footer-bottom { font-size: 12px; }
+	.social-links li { margin: 0 3px; }
+}
+

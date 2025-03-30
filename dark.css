@@ -1,0 +1,15 @@
+body:where(.dark) { background-color: #1e1e1e; }
+
+body:where(.dark) .themeform input[type="submit"],
+body:where(.dark) #theme-toggle-btn:before,
+body:where(.dark) .stickywrap .stickywrap-heading:before,
+body:where(.dark) .alx-tabs-nav li.active a,
+body:where(.dark) .commentlist li.bypostauthor > .comment-body:after,
+body:where(.dark) .commentlist li.comment-author-admin > .comment-body:after,
+body:where(.dark) .wp-pagenavi a:hover,
+body:where(.dark) .wp-pagenavi a:active,
+body:where(.dark) .wp-pagenavi span.current { background: #44caff; }
+
+body:where(.dark) a:hover,
+body:where(.dark) a.card-comments strong,
+body:where(.dark) a.card-comments i { color: #44caff; }
