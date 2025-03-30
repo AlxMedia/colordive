@@ -1,7 +1,7 @@
 === Colordive ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, news, entertainment, one-column, custom-colors, custom-menu, featured-images, flexible-header, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets
@@ -66,5 +66,5 @@ Images
 
 == Changelog ==
 
-= 1.0.0 - 2025-04-10 =
+= 1.0.0 - 2025-03-31 =
 * Initial release
