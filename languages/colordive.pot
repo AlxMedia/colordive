@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Colordive\n"
-"POT-Creation-Date: 2025-03-30 14:46+0200\n"
+"POT-Creation-Date: 2025-03-30 15:44+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -77,39 +77,39 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:146
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:179 functions.php:180 functions.php:181 functions.php:182
+#: functions.php:146 functions.php:147 functions.php:148 functions.php:149
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:180
+#: functions.php:147
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:181
+#: functions.php:148
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:182
+#: functions.php:149
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:508
+#: functions.php:475
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:512
+#: functions.php:479
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:516
+#: functions.php:483
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:520
+#: functions.php:487
 msgid "WP-PageNavi"
 msgstr ""
 

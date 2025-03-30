@@ -126,39 +126,6 @@ if ( ! function_exists( 'colordive_custom_logo' ) ) {
 add_action( 'after_setup_theme', 'colordive_custom_logo' );
 
 
-/*  Custom header
-/* ------------------------------------ */
-if ( ! function_exists( 'colordive_custom_header' ) ) {
-	
-	function colordive_custom_header() {
-		$args = array(
-			'default-image'	=> false,
-			'default-text'	=> false,
-			'width'			=> 1120,
-			'height'		=> 300,
-			'flex-width'	=> true,
-			'flex-height'	=> true,
-		);
-		add_theme_support( 'custom-header', $args );
-	}
-	
-}
-add_action( 'after_setup_theme', 'colordive_custom_header' );
-
-
-/*  Custom background
-/* ------------------------------------ */
-if ( ! function_exists( 'colordive_custom_background' ) ) {
-	
-	function colordive_custom_background() {
-		$args = array();
-		add_theme_support( 'custom-background', $args );
-	}
-	
-}
-add_action( 'after_setup_theme', 'colordive_custom_background' );
-
-
 /*  Deregister
 /* ------------------------------------ */
 if ( ! function_exists( 'colordive_deregister' ) ) {
