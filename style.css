@@ -438,6 +438,8 @@ h1, h2, h3, h4, h5, h6 { color: rgba(255,255,255,0.8); font-weight: 600; -ms-wor
 .toggle-search #svg-close,
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; position: relative; padding: 1px 0 2px; }
+.toggle-search:focus #svg-search,
+.toggle-search:focus #svg-close { fill: rgba(255,255,255,0.6); }
 
 #theme-toggle { background: rgba(255,255,255,0.06); box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(0,0,0,0.1); border: 0; padding: 10px; border-radius: 30px; display: block; cursor: pointer; margin-left: auto; margin-right: 10px; transition: all 0.3s; float: right; }
 #theme-toggle i { color: rgba(255,255,255,0.3); display: block; font-size: 20px; float: left; }
