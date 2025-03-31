@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, custom-colors, custom-menu, feature
 
 == Description ==
 
-Colordive is a flexible personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design, including dark/light mode. With extensive styling options you can make your own design, changing to unlimited background/accent colors and much more. Demo: http://demo.alx.media/x/?theme=Colordive
+Colordive is a flexible personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design, including dark/light mode. With extensive styling options you can make your own design, changing to unlimited background/accent colors and much more. Demo: https://demo.agnarson.com/?theme=Colordive
 
 == Installation ==
 
