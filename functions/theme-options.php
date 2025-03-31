@@ -434,7 +434,7 @@ Kirki::add_field( 'colordive_theme', array(
 	'settings'		=> 'color-accent',
 	'label'			=> esc_html__( 'Accent Color', 'colordive' ),
 	'section'		=> 'styling',
-	'default'		=> '#de6933',
+	'default'		=> '#43caff',
 ) );
 // Styling: Background Color
 Kirki::add_field( 'colordive_theme', array(
@@ -442,7 +442,7 @@ Kirki::add_field( 'colordive_theme', array(
 	'settings'		=> 'color-background',
 	'label'			=> esc_html__( 'Background Color', 'colordive' ),
 	'section'		=> 'styling',
-	'default'		=> '#181106',
+	'default'		=> '#1e1e1e',
 ) );
 // Styling: Accent Color
 Kirki::add_field( 'colordive_theme', array(
@@ -450,7 +450,7 @@ Kirki::add_field( 'colordive_theme', array(
 	'settings'		=> 'color-accent-dark',
 	'label'			=> esc_html__( 'Accent Color (Dark Theme)', 'colordive' ),
 	'section'		=> 'styling',
-	'default'		=> '#44caff',
+	'default'		=> '#de6933',
 ) );
 // Styling: Background Color
 Kirki::add_field( 'colordive_theme', array(
@@ -458,5 +458,5 @@ Kirki::add_field( 'colordive_theme', array(
 	'settings'		=> 'color-background-dark',
 	'label'			=> esc_html__( 'Background Color (Dark Theme)', 'colordive' ),
 	'section'		=> 'styling',
-	'default'		=> '#1e1e1e',
+	'default'		=> '#181106',
 ) );

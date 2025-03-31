@@ -42,9 +42,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ------------------------------------------------------------------------- *
  *  Base Styles
 /* ------------------------------------------------------------------------- */
-body { background: #181106; font-size: 15px; line-height: 1.5em; color: rgba(255,255,255,0.6); font-weight: 400; }
+body { background: #1e1e1e; font-size: 15px; line-height: 1.5em; color: rgba(255,255,255,0.6); font-weight: 400; }
 a { color: rgba(255,255,255,0.8); text-decoration: none; }
-a:hover { color: #de6933; }
+a:hover { color: #43caff; }
 img { max-width: 100%; height: auto; }
 a,
 a:before,
@@ -73,7 +73,7 @@ ol, ul { box-sizing: content-box; }
 input, textarea, button, select, label { font-family: inherit; }
 .themeform input:not([type="submit"]):not([type="checkbox"]), 
 .themeform textarea { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.5); font-size: 14px; width: 100%; box-sizing: border-box; display: block; border-radius: 20px; padding: 8px 10px; border: 1px solid rgba(255,255,255,0.1); line-height: 1.5em; }
-.themeform input[type="submit"] { background: #de6933; color: #fff; font-weight: 600; font-size: 14px; border: 0; cursor: pointer; border-radius: 30px; padding: 12px 18px; display: block;  }
+.themeform input[type="submit"] { background: #43caff; color: #fff; font-weight: 600; font-size: 14px; border: 0; cursor: pointer; border-radius: 30px; padding: 12px 18px; display: block;  }
 .themeform textarea:focus, 
 .themeform input:not([type="submit"]):focus { outline: none; border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.75); }
 
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 { color: rgba(255,255,255,0.8); font-weight: 600; -ms-wor
 #theme-toggle .fa-sun { display: block; }
 #theme-toggle .fa-moon { display: none; }
 #theme-toggle-btn { background: rgba(0,0,0,0.2); box-shadow: inset 0 1px 0 rgba(0,0,0,0.06); position: relative; display: block; width: 34px; height: 20px; margin-left: 28px; border-radius: 16px; }
-#theme-toggle-btn:before { background: #de6933; box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 0 rgba(0,0,0,0.2); transition: all .25s; content: ""; position: absolute; top: 50%; left: 16px; top: 2px; width: 16px; height: 16px; border-radius: 50%; }
+#theme-toggle-btn:before { background: #43caff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 0 rgba(0,0,0,0.2); transition: all .25s; content: ""; position: absolute; top: 50%; left: 16px; top: 2px; width: 16px; height: 16px; border-radius: 50%; }
 body.dark #theme-toggle {  }
 body.dark #theme-toggle i {  }
 body.dark #theme-toggle .fa-sun { display: none; }
@@ -493,7 +493,7 @@ a.card-comments:hover { font-weight: 800; }
 a.card-comments span { transition: all 0.2s ease; }
 a.card-comments i { margin-right: 4px; position: relative; }
 a.card-comments strong,
-a.card-comments i { color: #de6933; }
+a.card-comments i { color: #43caff; }
 
 .stickywrap { position: relative; }
 .stickywrap:before { content:""; height: 100%; border-radius: 24px; position: absolute; left: 130px; right: 0; top: 0; bottom: 0; pointer-events: none; }
@@ -501,7 +501,7 @@ a.card-comments i { color: #de6933; }
 body.dotted-pattern .stickywrap:after { display: block; }
 .stickywrap:nth-child(1):before { border-bottom: 0; }
 .stickywrap .stickywrap-heading { position: sticky; top: 28px; height: 60px; display: flex; align-items: center; font-size: 26px; letter-spacing: -0.02em; font-weight: 800; line-height: 1.5; text-transform: uppercase; color: rgba(0,0,0,0.12); }
-.stickywrap .stickywrap-heading:before { content:""; width: 6px; height: 20px; background: rgba(0,0,0,0.3); background: #de6933; box-shadow: inset 0 1px 0 rgba(0,0,0,0.3), inset 0 -1px 0 rgba(255,255,255,0.14); position: absolute; border-radius: 20px; left: 100px; z-index: 2; }
+.stickywrap .stickywrap-heading:before { content:""; width: 6px; height: 20px; background: rgba(0,0,0,0.3); background: #43caff; box-shadow: inset 0 1px 0 rgba(0,0,0,0.3), inset 0 -1px 0 rgba(255,255,255,0.14); position: absolute; border-radius: 20px; left: 100px; z-index: 2; }
 .stickywrap .stickywrap-heading:after { display: none; content: ""; border: 1px solid rgba(0,0,0,0.12); border-right: 0!important; width: 37px; height: 12px; position: absolute; border-radius: 12px 0 0 12px; top: 23px; left: 122px; z-index: 1; }
 .stickywrap .stickywrap-heading a { color: rgba(255,255,255,0.3); }
 .admin-bar .stickywrap .stickywrap-heading { top: 40px; }
@@ -1008,7 +1008,7 @@ body.single .small-heading { margin: 40px 0; font-size: 16px; }
 .alx-tabs-nav li a { color: rgba(255,255,255,0.6); font-size: 18px; display: block; padding: 12px 0; border-radius: 30px; }
 .alx-tabs-nav li:first-child a { border-left: 0; }
 .alx-tabs-nav li a:hover { color: #fff; }
-.alx-tabs-nav li.active a { background: #de6933; color: #fff; }
+.alx-tabs-nav li.active a { background: #43caff; color: #fff; }
 .alx-tabs-nav li a span { display: none; }
 
 .alx-tab li,
@@ -1087,7 +1087,7 @@ body.single .small-heading { margin: 40px 0; font-size: 16px; }
 
 /* post author & admin comment */
 .commentlist li.bypostauthor > .comment-body:after,
-.commentlist li.comment-author-admin > .comment-body:after { background: #de6933; display: block; position: absolute; content: "\f303"; color: #fff; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 6 Free"; font-weight: 900; text-align: center; }
+.commentlist li.comment-author-admin > .comment-body:after { background: #43caff; display: block; position: absolute; content: "\f303"; color: #fff; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 6 Free"; font-weight: 900; text-align: center; }
 .commentlist li.comment-author-admin > .comment-body:after { content: "\f005"; /* star for admin */ }
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after { top: 32px; left: -28px; font-size: 8px; padding: 2px; border-radius: 100%; }
@@ -1150,7 +1150,7 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .wp-pagenavi a { background: rgba(255,255,255,0.06); box-shadow: 0 12px 32px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.1), inset 0 20px 20px rgba(255,255,255,0.06);border-radius: 6px; color: rgba(255,255,255,0.6); border: none; }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
-.wp-pagenavi span.current { background: #de6933; color: #fff; border-radius: 6px; border: none; }
+.wp-pagenavi span.current { background: #43caff; color: #fff; border-radius: 6px; border: none; }
 
 
 /* ------------------------------------------------------------------------- *

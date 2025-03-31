@@ -116,7 +116,7 @@ if ( ! function_exists( 'colordive_dynamic_css' ) ) {
 				'."\n";
 			}
 			// accent color
-			if ( get_theme_mod('color-accent','#de6933') != '#de6933' ) {
+			if ( get_theme_mod('color-accent','#43caff') != '#43caff' ) {
 				$styles .= '
 .themeform input[type="submit"],
 #theme-toggle-btn:before,
@@ -134,13 +134,13 @@ a.card-comments i { color: '.esc_attr( get_theme_mod('color-accent') ).'; }
 				'."\n";
 			}
 			// background color
-			if ( get_theme_mod('color-background','#181106') != '#181106' ) {
+			if ( get_theme_mod('color-background','#1e1e1e') != '#1e1e1e' ) {
 				$styles .= '
 body { background: '.esc_attr( get_theme_mod('color-background') ).'; }
 				'."\n";
 			}
 			// accent color dark theme
-			if ( get_theme_mod('color-accent-dark','#44caff') != '#44caff' ) {
+			if ( get_theme_mod('color-accent-dark','#de6933') != '#de6933' ) {
 				$styles .= '
 body:where(.dark) .themeform input[type="submit"],
 body:where(.dark) #theme-toggle-btn:before,
@@ -158,7 +158,7 @@ body:where(.dark) a.card-comments i { color: '.esc_attr( get_theme_mod('color-ac
 				'."\n";
 			}
 			// background color dark theme
-			if ( get_theme_mod('color-background-dark','#1e1e1e') != '#1e1e1e' ) {
+			if ( get_theme_mod('color-background-dark','#181106') != '#181106' ) {
 				$styles .= '
 body:where(.dark)  { background: '.esc_attr( get_theme_mod('color-background-dark') ).'!important; }
 				'."\n";
