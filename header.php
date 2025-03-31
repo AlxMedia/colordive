@@ -26,7 +26,7 @@
 
 <div class="page-wrapper">
 	
-	<img class="page-wrapper-lights" src="<?php echo get_template_directory_uri(); ?>/img/lights.png" />
+	<img class="page-wrapper-lights" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/lights.png" />
 	
 	<header class="header nav-menu-dropdown-left">
 		<div class="header-inner">
