@@ -66,5 +66,8 @@ Images
 
 == Changelog ==
 
+= 1.0.1 - 2025-04-03 =
+* Fixed focus state of mobile menu button
+
 = 1.0.0 - 2025-03-31 =
 * Initial release

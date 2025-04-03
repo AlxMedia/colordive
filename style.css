@@ -1,7 +1,7 @@
 /*
 Theme Name: Colordive
 Theme URI: https://agnarson.com/wpthemes/colordive/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.7
@@ -710,7 +710,7 @@ body.single .small-heading { margin: 40px 0; font-size: 16px; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
 .nav-menu.mobile button:focus,
-.menu-toggle:focus { background: rgba(255,255,255,0.06); }
+.menu-toggle:focus { background: rgba(255,255,255,0.1); }
 
 /* menu styling */
 .nav-menu a { color: #000; font-weight: 400; }
