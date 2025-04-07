@@ -62,7 +62,7 @@
 						
 						<?php if ( get_theme_mod( 'credit', 'on' ) == 'on' ): ?>
 						<div id="credit">
-							<p><?php esc_html_e('Powered by','colordive'); ?> <a href="<?php esc_url( _e( 'https://wordpress.org', 'colordive' ) ); ?>" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','colordive'); ?> <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
+							<p><?php esc_html_e('Powered by','colordive'); ?> <a href="<?php esc_url( _e( 'https://wordpress.org', 'colordive' ) ); ?>" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','colordive'); ?> <a href="https://agnarson.com" rel="nofollow">Alx</a>.</p>
 						</div><!--/#credit-->
 						<?php endif; ?>
 						

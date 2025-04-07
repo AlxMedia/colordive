@@ -19,7 +19,7 @@ Colordive is a flexible personal blog theme with plenty of options. Optimized fo
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
